@@ -1,0 +1,15 @@
+.btn {
+  padding: 0.97rem 2.227rem;
+  background-color: $color-primary;
+  color: $color-white;
+  font-weight: 600;
+  border-radius: 2.78px;
+  @include respond(sm) {
+    padding: 1rem 2rem;
+  }
+
+  &:hover{
+    background-color:white;
+    color: #324533;
+  }
+}
